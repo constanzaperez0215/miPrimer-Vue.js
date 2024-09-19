@@ -12,6 +12,8 @@
   }
 </script>
 
+
+
 <template>
 <p>{{ contador }}</p>
 <br>
