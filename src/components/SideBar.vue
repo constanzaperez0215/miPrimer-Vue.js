@@ -9,6 +9,9 @@
       <li>
         <RouterLink to="/lista-de-tareas">Lista de Tareas</RouterLink>
       </li>
+      <li>
+        <RouterLink to="/registar">Registar</RouterLink>
+      </li>
     </ul>
   </div>
 </template>

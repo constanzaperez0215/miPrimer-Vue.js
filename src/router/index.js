@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import ListaDeTareas from '@/components/ListaDeTareas.vue'
-import MiContador from '@/components/MiContador.vue'
+import ListaDeTareas from '@/modules/listaDeTareas/components/ListaDeTareas.vue'
+import MiContador from '@/modules/contador/components/MiContador.vue'
+import RegistrarView from '@/modules/registro/views/RegistrarView.vue'
 
 
 const router = createRouter({
@@ -15,6 +16,11 @@ const router = createRouter({
       path: '/lista-de-tareas',
       name: 'lista-de-tareas',
       component: ListaDeTareas
+    },
+    {
+      path: '/registar',
+      name: 'registar',
+      component: RegistrarView
     }
   ]
 })
