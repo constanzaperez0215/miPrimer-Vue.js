@@ -1,16 +1,13 @@
 <script setup>
-import Contador from './components/MiContador.vue'
-import ListaDeTareas from './components/ListaDeTareas.vue';
+import MainView from './views/MainView.vue';
 </script>
 
 <template>
+  <MainView />
 <h1>Hello World!!</h1>
-<br>
-<Contador />
-<ListaDeTareas />
 
 </template>
 
 <style scoped>
- 
+
 </style>
