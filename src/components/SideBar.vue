@@ -3,10 +3,11 @@
   import {ref, watch} from 'vue'
 
   const registrarStore = useRegistrarStore()
-  // Obtengo los datos 
+  // Obtengo los datos de mi store
   const nombre = ref(registrarStore.nombre.value)
   const email = ref(registrarStore.email.value)
 
+  //  watch se utiliza para que la variable esté atenta a los cambios realizados
   watch(() => registrarStore.nombre, (newValue) => {
     nombre.value = newValue
   })
@@ -40,7 +41,7 @@
  .sidebar{
   width: 200px;
   height: 100vh;
-  background-color: gray;
+  background-color: rgb(215, 215, 215);
   padding: 20px;
  }
 </style>
