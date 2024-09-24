@@ -1,13 +1,18 @@
 <script setup>
   import Sidebar from '../components/SideBar.vue';
   import Header from '../components/Header.vue'
+  import { ref } from 'vue';
+
+  const texto = ref('')
 </script>
 
 <template>
-  <Header></Header>
+  <Header :mensaje="texto"></Header>
   <div class="container">
     <Sidebar />
     <div class="content">
+      <input type="text" v-model="texto">
+      {{ texto }}
       <RouterView></RouterView>
     </div>
   </div>
