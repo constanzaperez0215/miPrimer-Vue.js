@@ -8,6 +8,7 @@
 
 <template>
   <Header :mensaje="texto"></Header>
+  <!-- con el :mensaje, declaro el nombre de la varieble que estoy enviando como props y el texto es la constante reactiva que estoy capturando en el input -->
   <div class="container">
     <Sidebar />
     <div class="content">

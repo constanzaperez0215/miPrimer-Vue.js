@@ -15,6 +15,4 @@
   <h3>La temperatura actual en Quilpué es: {{ weatherStore.temperatura }}°</h3>
 </template>
 
-<style lang="css" scoped>
-
-</style>
+<style scoped></style>

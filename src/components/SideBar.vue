@@ -33,6 +33,9 @@
       <li>
         <RouterLink to="/registar">Registar</RouterLink>
       </li>
+      <li>
+        <RouterLink to="/calcular">Calcular</RouterLink>
+      </li>
     </ul>
   </div>
 </template>

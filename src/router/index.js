@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import ListaDeTareas from '@/modules/listaDeTareas/components/ListaDeTareas.vue'
 import MiContador from '@/modules/contador/components/MiContador.vue'
 import RegistrarView from '@/modules/registro/views/RegistrarView.vue'
+import CalcularView from '@/modules/calcular/views/CalcularView.vue'
 
 
 const router = createRouter({
@@ -21,6 +22,11 @@ const router = createRouter({
       path: '/registar',
       name: 'registar',
       component: RegistrarView
+    },
+    {
+      path: '/calcular',
+      name: 'calcular',
+      component: CalcularView
     }
   ]
 })
