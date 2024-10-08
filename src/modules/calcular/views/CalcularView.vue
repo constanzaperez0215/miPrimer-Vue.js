@@ -23,7 +23,7 @@
   <!-- el v-if es similar al v-show pero en este caso el componente desaparece de los elementos del navegador -->
 
   <div v-else-if="isNaN(valor)">Debe ser un número</div>
-
+  <!-- en el caso que el valor no sea un numero  -->
 
    <div v-else>Aquí no se muestra nada</div>
    <!-- queda indexado directamente al v-if, y funciona cuando la condicional del if no se cumple -->

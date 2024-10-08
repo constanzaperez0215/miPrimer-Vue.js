@@ -9,7 +9,7 @@
 </script>
 
 <template>
-  <div class="resultado">{{ resultado }}</div>
+  <div class="resultado">{{ props.resultado }}</div>
 </template>
 
 <style scope>
